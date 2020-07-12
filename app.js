@@ -44,7 +44,7 @@ function timer() {
 }
 function start() {
   interval = setInterval(timer, 10);
-  // document.getElementById("pause").disabled = false;
+  document.getElementById("pause").disabled = false;
 }
 var i = 0;
 function pause() {
@@ -61,6 +61,7 @@ function pause() {
   var backReturn = memoryarr(pa_min, pa_sec, pa_msec, i);
 
   document.getElementById("lap1").innerHTML = backReturn;
+  document.getElementById("pause").disabled = true;
 }
 
 function memoryarr(a, b, c, i) {
