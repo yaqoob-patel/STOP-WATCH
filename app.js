@@ -43,7 +43,7 @@ function timer() {
   }
 }
 function start() {
-  interval = setInterval(timer, 10);
+  interval = setInterval(timer, 100);
   document.getElementById("pause").disabled = false;
 }
 var i = 0;
