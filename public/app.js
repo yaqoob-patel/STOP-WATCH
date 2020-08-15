@@ -30,7 +30,7 @@ function timer() {
   msec++;
   msecheading.innerHTML = msec;
   console.log(msecheading);
-  if (msec >= 100) {
+  if (msec >= 10) {
     sec++;
     secheading.innerHTML = sec;
     msec = 0;
